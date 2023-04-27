@@ -6,20 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/42_Logo.svg/1200px-42_Logo.svg.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://img.icons8.com/ios-glyphs/256/document.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
     <link rel="stylesheet "href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
     
-    <title>Document</title>
+    <title>CV</title>
 </head>
 <body >
 <div class="loader "></div>
 <nav id="nav" class="hide-nav bg-white px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b border-gray-200 ">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
-        <a href="#content1" class="flex items-center">
+        <a href="" class="flex items-center">
             <span class="self-center text-2xl font-semibold whitespace-nowrap ">pjaipras</span>
         </a>
         <div class="flex md:order-3">
@@ -33,13 +33,16 @@
         <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
         <ul class=" flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white ">
             <li>
-                <button id="AboutMe_nav" onclick="DisplayAbout()" class="cursor-pointer hover:text-blue-700 hover:underline focus:underline focus:text-blue-700 underline-offset-8 block block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0" >AboutMe</button>
+                <button id="AboutMe_nav" onclick="DisplayAbout()" class="cursor-pointer hover:text-blue-700 hover:underline focus:underline focus:text-blue-700 underline-offset-8 block block py-2 pl-3 pr-4 text-gray-700 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0" >AboutMe</button>
             </li>
             <li>
-                <button id="Experiences_nav" onclick="DisplayExperiences()" class="cursor-pointer hover:text-blue-700 hover:underline focus:underline focus:text-blue-700 underline-offset-8 block block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Experiences</button>
+                <button id="Experiences_nav" onclick="DisplayExperiences()" class="cursor-pointer hover:text-blue-700 hover:underline focus:underline focus:text-blue-700 underline-offset-8 block block py-2 pl-3 pr-4 text-gray-700 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Experiences</button>
             </li>
             <li>
-                <button id="Skill_nav" onclick="DisplaySkills()" class="cursor-pointer hover:text-blue-700 hover:underline focus:underline focus:text-blue-700 underline-offset-8 block block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Skills</button>
+                <button id="Skill_nav" onclick="DisplaySkills()" class="cursor-pointer hover:text-blue-700 hover:underline focus:underline focus:text-blue-700 underline-offset-8 block block py-2 pl-3 pr-4 text-gray-700 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Skills</button>
+            </li>
+            <li>
+                <button id="Contact_nav" onclick="DisplayContact()" class="cursor-pointer hover:text-blue-700 hover:underline focus:underline focus:text-blue-700 underline-offset-8 block block py-2 pl-3 pr-4 text-gray-700 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Contact</button>
             </li>
         </ul>
         </div>
@@ -47,20 +50,26 @@
 </nav>
     <div id="hide">
         <div id="AboutMe">
-            <h1 class="" id="hide">Content1</h1>
-            <div  class="justify-center items-center text-center mt-[5rem] animate__animated animate__backInLeft">
+            <h1 id="hide">Content1</h1>
+            <div id="animate_img" class="justify-center items-center text-center mt-[5rem] animate__animated animate__backInLeft">
                 <div class="divforimg m-auto ">
                     <img class="w-[18rem] h-[18rem]" src="https://i.ibb.co/X5n21Bc/293997357-1323951701464576-76326433476225533-n.jpg" alt="">
                 </div>
                 <div class=" pt-9">
-                    <div class="inline-block ">
-                        <h1 class="text-2xl font-medium textstyle max-sm:text-lg">Hello, My name is Phreeratchai Jaiprasong</h1>
-                    </div>
-                    <h1 class="text-xl pt-2 max-sm:text-base">But you can call me Deaw for short</h1>
-                    <h2 class="text-xl pt-2 max-sm:text-base">Nice to meet you all !!!</h2>
+                        <div class="px-2">
+                            <h1 class="text-2xl font-medium textstyle max-sm:text-lg">Hello, My name is Phreeratchai Jaiprasong.</h1>
+                        </div>
+                        <div class="px-2">
+                            <h1 class="text-xl pt-2 max-sm:text-base">But you can call me Deaw for short. I am 16 years old.</h1>
+                            <h1 class="text-xl pt-2 max-sm:text-base">Studying in grade 11 at Sawananan Wittaya School, Sukhothai.</h1>
+                            <h2 class="text-xl pt-2 max-sm:text-base">Nice to meet you all !!!</h2>
+                        </div>
+
+
                 </div>
             </div>
         </div>
+
         <div id="Experiences" class="hidden">
             <div  class="justify-center items-center text-center mt-[2rem]">
                 <div class=""><h1 class="mb-10" id="hide">asdadsdad</h1>
@@ -115,10 +124,10 @@
                             </div>  
                         </div>
                     </section>
-
                 </div>
             </div>
         </div>
+
         <div id="Skills" class="hidden">
             <div  class="justify-center items-center text-center mt-[2rem]">
                 <div class="">
@@ -177,16 +186,66 @@
 
                                 </article> 
                                 <article class="bg-white rounded-lg border border-gray-200 shadow-md ">
-                                    <h2 class="font-medium mt-2 mx-2 text-2xl font-bold tracking-tight text-gray-900 ">Soft Skills</h2>
-                                    <p class="mb-5 font-light text-gray-500">ผมได้ผ่านรอบคัดเลือกและได้เข้ามารับการอบรมโดยผมรับหน้าที่เขียนโปรแกรมสำหรับบอร์ด Raspberry pi</p>
-                                </article>               
+                                        <h2 class="font-medium my-2 mx-2 text-2xl font-bold tracking-tight text-gray-900 ">Soft Skills</h2>
+                                        <p class="text-left mx-2 mb-2 text-lg text-gray-500">- Teamwork</p>
+                                        <p class="text-left mx-2 mb-2 text-lg text-gray-500">- Communication</p>
+                                        <p class="text-left mx-2 mb-2 text-lg text-gray-500">- Time Management</p>
+                                        <p class="text-left mx-2 mb-2 text-lg text-gray-500">- Vue.js</p>
+                                        <p class="text-left mx-2 mb-2 text-lg text-gray-500">- Tailwind CSS</p>
+                                </article>             
                             </div>  
                         </div>
                     </section>
-
                 </div>
+            </div>
         </div>
-    </div>
+        
+            <div id="Contact" class="hidden">
+                <div  class="justify-center items-center text-center mt-[2rem]">
+                    <div class="">
+                        <h1 class="my-9" id="hide">asdadsdad</h1>
+                        <div class="inline-block">
+                            <h1 class="text-2xl font-medium ">Contact Me!</h1>
+                        </div>
+                        <section class="bg-white">
+                            <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+                                <div class="grid gap-8 lg:grid-cols-1 ">
+                                    <article class="bg-white rounded-lg border border-gray-200 shadow-md p-4">
+                                        <form action="https://formspree.io/f/mvondndq"  method="POST" id="Contact_Form">
+                                            <div class="grid gap-6 mb-6 md:grid-cols-1 text-left">
+                                                <div>
+                                                    <label for="full-name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Full Name</label>
+                                                    <input type="text" name="name" id="full-name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John Doe" required>
+                                                </div>
+                                                <div>
+                                                    <label for="telephone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone number</label>
+                                                    <input type="tel" name="telephone" id="telephone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" pattern="0[0-9]{2}[0-9]{3}[0-9]{4}" placeholder="0XXXXXXXXX" required>
+                                                </div>
+                                                <div>
+                                                    <label for="email-address" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email address</label>
+                                                    <input type="email" name="_replyto" id="email-address" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com"  required>
+                                                </div>
+                                                <div>
+                                                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
+                                                    <textarea id="message" name="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..." required></textarea>
+                                                </div>
+                                            </div>    
+                                            <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+                                        </form>
+                                    </article>               
+                                </div>  
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
 </body>
 <script src="script.js"></script>
 </html> 
+
+<!-- <footer>
+    <div class="absolute bottom-0 left-0 right-0 mx-auto text-center mb-2 copyright text-[#BDBDBD]">
+        <hr>
+        <p class="mt-2">© pjaipras 2023</p>
+    </div>
+</footer> -->
